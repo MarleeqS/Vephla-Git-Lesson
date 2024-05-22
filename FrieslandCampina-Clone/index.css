@@ -1,0 +1,446 @@
+body {  
+    margin: 0px;
+    padding: 0%;
+  }
+.navbar {
+    overflow: visible;
+    margin: 0px;
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+position: fixed;
+    font-family: sans-serif;
+    z-index: 2;
+    font-size: 0.75rem;
+    width: 100%;
+    top: 0px;
+  }
+  .navbar img {
+    padding-left: 40px;
+    padding-right: 100px;
+    width: 170px;
+    height: 63px;
+  }
+  .navbar a {
+    margin: 0px;
+    float: left;
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+    padding: 14px 6px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: none;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 0.75rem;  
+    border: none;
+    outline: none;
+    color: gray;
+    padding: 0px 0px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .navbar .dropdown:hover .dropbtn {
+    color: black;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+    height: 70%;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .dropdown-content .header {
+    background: white;
+    padding-top: 56px;
+    width: 50%;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: left;
+    width: 22.8%;
+    padding: 10px;
+    background-color: white;
+    height: 300px;
+    z-index: 2;
+  }
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .search {
+    padding-right: 90px;
+    width: 18px;
+    height: 16px;
+    text-decoration: none;
+    border: 0px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+.navbar i {
+    display: block;
+    text-align: right;
+    width: 18px;
+    height: 16px;
+    border: 0;
+}
+    .relative1 {
+        position: relative;
+        margin: 0px;
+       background-color: white;
+        top: 0px;
+        height: 280vh;
+        width: 100vw;
+    }
+    .absolute1 {
+        position: absolute;
+        margin: 0px;
+        background-image: url(./images/fdovvvv.png);
+        background-size:100% 900px;
+        background-repeat: no-repeat;
+        top: 100px;
+        height: 80vh;
+        width: 100vw;
+    }
+    .absolute2 {
+        position: absolute;
+        left: 100px;
+        height: 70vh;
+        width: 70vw;
+        top: 40vh;
+        background-color: white;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0 45px 60px 0 rgba(172, 178, 182, 0.1);
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+.absolute2 h1 {
+    font-size: 4.75rem;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+.absolute2 p {
+    color: #646569;
+    line-height: 1.75;
+    font-family: Doyle, serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.absolute3 {
+    position: absolute;
+    left: 130px;
+    height: 100vh;
+    width: 70vw;
+    top: 150vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.absolute3 h2 {
+    color: #2c353a;
+    font-size: 3.5rem;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 300;
+}
+.absolute3 p {
+    color: #646569;
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+    letter-spacing: .2px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+}
+.relative2 {
+    position: relative;
+    margin: 0px;
+   background-color: white;
+    top: 0px;
+    height: 300vh;
+    width: 100vw;
+}
+.absolute4 {
+    position: absolute;
+    left: 100px;
+    height: 120vh;
+    width: 80vw;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    top: 0vh;
+    background: #eaf3fc;
+}
+.absolute5 {
+    position: absolute;
+    left: 100px;
+    height: 120vh;
+    width: 40vw;
+    top: 0vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+.absolute5 h2 {
+    font-size: 3.5rem;
+    line-height: 1.334;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 300;
+    color: #2c353a;
+}
+.absolute5 p {
+    color: #646569;
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+    letter-spacing: .2px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+}
+.absolute6 {
+    position: absolute;
+    right: 0px;
+    height: 120vh;
+    width: 50vw;
+    top: 0vh;
+}
+.absolute6 img {
+    width: 50vw;
+    height: 120vh;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
+.absolute7 {
+    position: absolute;
+    left: 0px;
+    height: 80vh;
+    width: 50vw;
+    top: 140vh;
+}
+.absolute7 img {
+    width: 50vw;
+    height: 80vh;
+}
+.absolute8 {
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    width: 36   vw;
+    top: 130vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.absolute8 h2 {
+    font-size: 3.5rem;
+    line-height: 1.334;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 300;
+    color: #2c353a;
+}
+.absolute8 p {
+    color: #646569;
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+    letter-spacing: .2px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+}
+.absolute9 {
+    position: absolute;
+    left: 130px;
+    height: 70vh;
+    width: 70vw;
+    top: 265vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.absolute9 h2 {
+    font-size: 3.5rem;
+    line-height: 1.334;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 300;
+    color: #2c353a;
+}
+.absolute9 a {
+    padding: 25px 0px 25px 0px;
+    display: block;
+    color: rgb(0, 148, 217);
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-size: 1.25rem;
+}
+.absolute9 a:hover {
+    color: rgb(26, 95, 128);
+    background-color: skyblue;
+}
+.absolute9 p {
+    color: #646569;
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+    letter-spacing: .2px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+}
+.relative3 {
+    position: relative;
+    margin: 0px;
+   background-color: white;
+    top: 30vh;
+    height: 90vh;
+    width: 100vw;
+}
+.absolute10 {
+    position: absolute;
+    left: 0px;
+    height: 50vh;
+    width: 30vw;
+    top: 0vh;
+}
+.absolute11 {
+    position: absolute;
+    left: 35vw;
+    height: 50vh;
+    width: 15vw;
+    padding-bottom: 50px;
+    top: 0vh;
+}
+.absolute11 a {
+    line-height: 1.1;
+    padding: 40px 30px 20px 30px; 
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    color: rgb(100, 101, 105);
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 1.7;
+}
+.absolute12 {
+    position: absolute;
+    right: 0px;
+    height: 50vh;
+    width: 30vw;
+    top: 0vh;
+}
+.absolute13 a {
+    line-height: 1.1;
+    padding: 10px 0px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    color: rgb(100, 101, 105);
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 1.7;
+}
+.absolute13 {
+    position: absolute;
+    right: 35vw;
+    height: 50vh;
+    width: 15vw;
+    padding-bottom: 50px;
+    top: 0vh;
+}
+.absolute14 {
+    position: absolute;
+    right: 200px;
+    height: 50vh;
+    width: 15vw;
+    top: 20vh;
+}
+.absolute14 a {
+    line-height: 1.1;
+    padding: 10px 0px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    color: rgb(100, 101, 105);
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2;
+}
+.absolute14 a:hover {
+    color: black;
+}
+.absolute15 {
+    position: absolute;
+    right: 0px;
+    height: 50vh;
+    width: 15vw;
+    top: 20vh;
+}
+.absolute15 a {
+    line-height: 1.1;
+    padding: 10px 0px;
+    font-family: "Precious Sans Two", sans-serif;
+    font-weight: 500;
+    color: rgb(100, 101, 105);
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2;
+}
+.absolute15 a:hover {
+    color: black;
+}
+.absolute16 {
+    position: absolute;
+    left: 0px;
+    background-image: url(./images/footer-bground-desktop.jpg);
+    background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+    top: 40vh;
+}
+li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 56px;
+    height: 56px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: rgb(0, 148, 217);
+    font-size: 2rem; 
+    box-shadow: rgba(40, 41, 43, 0.2) 2px 0px 8px 0px;
+  }
+  li a {
+    color: rgb(0, 148, 217);
+  }

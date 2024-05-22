@@ -1,0 +1,1160 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0,108,206,1);
+  font-family: Arial;
+  width: 1340px;
+  margin: 0px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 18px 13px;
+  padding-top: 30px;
+  text-decoration: none;
+}
+.navbar img{
+  width: 270px;
+  height: 47px;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  padding: 18px 8px;
+  overflow: hidden;
+}
+.dropdown button {
+  margin-top: 30px;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0; }
+.navbar a:hover, .dropdown:hover .dropbtn {
+ text-decoration: underline;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 22px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.navbut {
+  padding-top: 19px;
+}
+.navbut button {
+  background-color: rgba(0,108,206,1);
+  padding: 10px;
+  width: 156px;
+  border: solid white 1px;
+  height: 36px;
+  color: white;
+  font-weight: bold;
+}
+.navbut button:hover{
+ background-color: white;
+ color: blue;
+ cursor: pointer;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.relative2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 99.5%;
+    height: 500px;
+}
+.absolute3 {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute3 img {
+  width: 336px;
+  height: 326px;
+  border-radius: 20px;
+}
+.absolute4 {
+  position: absolute;
+  top: 250px;
+  left: 390px;
+  margin: 0px;
+  width: 400px;
+  height: 200px;
+}
+.absolute4 .fa {
+font-size: 8.75rem;
+font-weight: bolder;
+  color: #05509f;
+  margin-left: -20px;
+}
+.absolute5 {
+  position: absolute;
+  top: 120px;
+  left: 390px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute5 img {
+  width: 292px;
+  height: 195px;
+  border-radius: 20px;
+}
+.absolute6 {
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  margin: 0px;
+  width: 600px;
+  height: 400px;
+}
+.absolute6 h1{
+  font-size: 1.938rem;
+  line-height: 1;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(17,31,106,1);
+}
+.absolute7 {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  margin: 0px;
+  width: 300px;
+  height: 280px;
+}
+.absolute7 p{
+  font-size: 1.125rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  line-height: 2;
+}
+.absolute8 {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  margin: 0px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+}
+.absolute8 button {
+margin-top: 20px;
+width: 240px;
+height: 40px;
+  padding: 13px 29px 13px;
+  color: white;
+  border: hidden;
+  background-color: rgba(0,108,206,1);
+}
+.absolute8 button:hover{
+ background-color: rgba(17,31,106,1);
+ cursor: pointer;
+}
+.relative3 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  margin: 0px;
+  width: 1150px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: rgba(0,108,206,1);
+}
+
+.absolute9 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute9 b{
+font-size: 1.625rem;
+color: white;
+padding-bottom: 20px;
+border-bottom: white 2px solid;
+padding-right: 20px;
+}
+.absolute10 {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute10 p{
+  font-size: 1.25rem;
+  color: white;
+
+  }
+.absolute11 {
+  position: absolute;
+  top: 40px;
+  left: 440px;
+  margin: 0px;
+  width: 400px;
+  height: 100px;
+}
+.absolute11 b{
+  font-size: 1.625rem;
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: white 2px solid;  
+  }
+.absolute12 {
+  position: absolute;
+  top: 100px;
+  left: 420px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute12 p{
+  font-size: 1.25rem;
+  color: white;
+  
+  }
+.absolute13 {
+  position: absolute;
+  top: 40px;
+  right: -70px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute15{
+  position: absolute;
+  top: 0px;
+  right: 435px;
+  margin: 0px;
+  width: 330px;
+  height: 195px;
+  border-left: white solid 3px;
+  border-right: white solid 3px;
+}
+.absolute13 b{
+  font-size: 1.625rem;
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: white 2px solid;
+  }
+.absolute14 {
+  position: absolute;
+  top: 100px;
+  right: -40px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute14 p{
+  font-size: 1.25rem;
+  color: white;
+  }
+  .relative4 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin: 0px;
+    width: 1150px;
+    height: 200px;
+  }
+.absolute16 {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  margin: 0px;
+  width: 800px;
+  height: 200px;
+}
+.absolute16 img {
+  box-shadow: 10px 10px 10px rgb(197, 195, 195);
+}
+.absolute17 {
+  position: absolute;
+  top: 150px;
+  left: 520px;
+  margin: 0px;
+  width: 70px;
+  height: 100px;
+}
+.absolute17 .fa {
+  font-size: 3.125rem;
+    color: #05509f;
+  }
+.absolute18{
+  position: absolute;
+  top: 220px;
+  left: 300px;
+  margin: 0px;
+  width: 550px;
+  height: 1000px;
+  text-align: center;
+}
+.absolute18 {
+  font-size: 1.063rem;
+  line-height: 1.5;
+}
+.relative5 {
+  background-image: url(./Images/office-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  position: relative;
+  top: 300px;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+.absolute19{
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  margin: 0px;
+  width: 524px;
+  height: 586px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 10px rgb(197, 195, 195);
+  background-color: white;
+}
+.absolute20{
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  margin: 0px 30px;
+  width: 520px;
+  height: 200px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.absolute20 p {
+  color: rgba(0,87,255,1);
+  font-size: 1.25rem;
+}
+.absolute21{
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  margin: 0px 30px;
+  text-align: left;
+  width: 520px;
+  height: 200px;
+}
+.absolute21 h2 {
+  color: rgba(0,87,255,1);
+  font-size: 2rem;
+  line-height: 1.35;
+}
+.absolute22{
+  position: absolute;
+  top: 285px;
+  left: 0px;
+  margin: 0px 30px;
+  text-align: left;
+  width: 520px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.absolute22 p {
+  font-size: 1.125rem;
+  color: black;
+  line-height: 1.5;
+}
+.absolute23{
+  position: absolute;
+  top: 420px;
+  left: 0px;
+  margin: 0px;
+  width: 520px;
+  height: 200px;
+}
+.absolute23 button {
+  margin-top: 20px;
+  width: 240px;
+  height: 40px;
+  margin-left: 30px;
+    padding: 13px 29px 13px;
+    color: white;
+    border: hidden;
+    background-color: rgba(0,108,206,1);
+  }
+  .absolute23 button:hover{
+   background-color: rgb(84, 96, 163);
+   cursor: pointer;
+  }
+  .relative6 {
+    position: relative;
+    top: 730px;
+    left: 0px;
+    margin: 0px;
+    width: 99.5%;
+    height: 500px;
+  }
+.absolute24{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding-right: 20px;
+  width: 400px;
+  height: 400px;
+}
+.absolute25{
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  margin: 0px;
+  width: 60px;
+  height: 60px;
+}
+.absolute25 .fa {
+  font-size: 3.125rem;
+    color: #05509f;
+  }
+.absolute26{
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  opacity: 0.8;
+  text-align: center;
+  margin: 0px;
+  width: 400px;
+  height: 70px;
+}
+.absolute26 h3{
+  font-size: 1.25rem;
+}
+.absolute27{
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.absolute27 p {
+  font-size: 1.188rem;
+  padding-left: 25px;
+}
+.absolute28{
+  position: absolute;
+  top: 0px;
+  left: 470px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute29{
+  position: absolute;
+  top: 50px;
+  left: 155px;
+  margin: 0px;
+  padding: 0px;
+  width: 70px;
+  text-align: center;
+  border-radius:40px;
+  height: 66px;
+}
+.absolute29 .fa {
+  border-radius: 30px;
+  font-size: 3.125rem;
+    color: #05509f;
+  }
+.absolute30{
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  margin: 0px;
+  width: 400px;
+  text-align: center;
+  height: 70px;
+}
+.absolute30 h3{
+  font-size: 1.25rem;
+}
+.absolute31{
+  position: absolute;
+  top: 210px;
+  left: 470px;
+  text-align: center;
+  margin: 0px;
+  width: 400px;
+  opacity: 0.8;
+  height: 400px;
+}
+.absolute31 p {
+  font-size: 1.188rem;
+}
+.absolute32{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute33{
+  position: absolute;
+  top: 50px;
+  right: 170px;
+  margin: 0px;
+  width: 60px;
+  height: 60px;
+}
+.absolute33 .fa {
+  border-radius: 30px;
+  font-size: 50px;
+    color: #05509f;
+  }
+.absolute34{
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 400px;
+  height: 70px;
+}
+.absolute34 h3{
+  font-size: 1.25rem;
+}
+.absolute35{
+  position: absolute;
+  top: 205px;
+  opacity: 0.8;
+  right: 0px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+}
+.absolute35 p {
+  font-size: 1.188rem;
+  padding-right: 25px;
+}
+.relative7 {
+  position: relative;
+  top: 650px;
+  left: 0px;
+  margin: 0px;
+  width: 99.5%;
+  height: 600px;
+}
+.absolute36{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  width: 550px;
+  height:600px;
+}
+.absolute36 img{
+  width: 395px;
+  height: 526px;
+  box-shadow: 10px 10px 10px rgb(197, 195, 195);
+}
+.absolute37{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 700px;
+  height: 600px;
+}
+.absolute38{
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  margin: 0px;
+  width: 600px;
+  text-align: left;
+  height: 400px;
+}
+.absolute38 h2 {
+  color: rgba(17,31,106,1);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.35;
+}
+.absolute39{
+  position: absolute;
+  top:280px;
+  right: 0px;
+  margin: 0px;
+  width: 600px;
+  height: 100px;
+}
+.absolute39 p{
+  font-size: 1.25rem;
+}
+.absolute40{
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  float: left;
+  margin: 0px;
+  width: 600px;
+  height: 400px;
+}
+.absolute40 button {
+  background-color: rgba(0,108,206,1);
+  padding: 10px;
+  width: 226px;
+  height: 36px;
+  color: white;
+  border: hidden;
+  font-weight: bold;
+}
+.absolute40 button:hover{
+ background-color: rgb(94, 133, 168);
+ cursor: pointer;
+}
+.relative8 {
+  position: relative;
+  top: 650px;
+  left: 0px;
+  margin: 0px;
+  width: 99.5%;
+  height: 830px;
+}
+.absolute41{
+  position: absolute;
+  top: 0px;
+  right: 400px;
+  text-align: center;
+  margin: 0px;
+  width: 500px;
+  height: 50px;
+  font-weight: bold;
+}
+.absolute41 h3 {
+  font-size: 1.313rem;
+  font-weight: bolder;
+}
+.absolute42{
+  box-shadow: 10px 10px 10px rgb(197, 195, 195);
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  line-height: 1.4;
+  margin: 0px 20px;
+  text-align: left;
+  width: 350px;
+  padding-top: 40px;
+  padding-left: 20px;
+  height: 430px;
+  font-size: 1.125rem;
+border-left: blue 10px solid;
+border-radius: 20px;
+}
+.absolute43{
+  box-shadow: 10px 10px 10px rgb(197, 195, 195);
+  position: absolute;
+  top: 80px;
+  right: 465px;
+  margin: 0px 20px;
+  text-align: left;
+  width: 350px;
+  padding-top: 40px;
+  padding-left: 20px;
+  height: 700px;
+  line-height: 1.4;
+  font-size: 1.125rem;
+  border-left: blue 10px solid;
+  border-radius: 20px;
+}
+.absolute44{
+  box-shadow: 10px 10px 10px rgb(197, 195, 195);
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  line-height: 1.4;
+  margin: 0px 20px;
+  text-align: left;
+  width: 350px;
+  padding-top: 40px;
+  padding-left: 20px;
+  height: 650px;
+  font-size: 1.125rem;
+  border-left: blue 10px solid;
+  border-radius: 20px;
+}
+.relative9 {
+  position: relative;
+  top: 650px;
+  left: 0px;
+  margin: 0px;
+  width: 99.5%;
+  height: 830px;
+}
+.absolute45{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding-left: 35px;
+  width: 400px;
+  height: 500px;
+} 
+.absolute45 button {
+  background-color: rgba(0,108,206,1);
+  padding: 10px;
+  width: 226px;
+  height: 36px;
+  color: white;
+  border: hidden;
+  font-weight: bold;
+}
+.absolute45 button:hover{
+ background-color: rgb(94, 133, 168);
+ cursor: pointer;
+}
+.absolute46{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 440px;
+  margin: 0px;
+  width: 890px;
+  height: 840px;
+}
+.absolute47{
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  margin: 0px;
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+  border: 1px solid lightblue;
+}
+.absolute47 .fa {
+  font-size: 1.7rem;
+    color: #05509f;
+  }
+  .absolute48{
+    position: absolute;
+    top: 51%;
+    left: 20px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 400px;
+    height: 350px;
+    border-radius: 30px;
+    border: 1px solid lightblue;
+  }
+  .absolute48 .fa {
+    font-size: 1.7rem;
+      color: #05509f;
+    }
+    .absolute49{
+      position: absolute;
+      top: 51%;
+      right: 0px;
+      margin: 0px;
+      padding-top: 40px;
+      padding-left: 20px;
+      width: 400px;
+      height: 350px;
+      color: white;
+      background-color: #05509f;
+      border-radius: 30px;
+      border: 1px hidden lightblue;
+    }
+    .absolute49 button {
+      background-color: rgba(0,108,206,1);
+      padding: 10px;
+      width: 226px;
+      border: solid white 1px;
+      height: 36px;
+      color: white;
+      font-weight: bold;
+    }
+    .absolute49 button:hover{
+     background-color: rgb(94, 133, 168);
+     cursor: pointer;
+    }
+      .absolute50{
+position: absolute;
+top: 0px;
+right: 0px;
+margin: 0px;
+padding-top: 40px;
+padding-left: 20px;
+width: 400px;
+height: 350px;
+border-radius: 30px;
+border: 1px solid lightblue;
+      }
+      .absolute50 .fa {
+font-size: 1.7rem;
+  color: #05509f;
+}
+.relative10 {
+ background-color: rgb(17, 31, 106);
+  position: relative;
+  top: 750px;
+  left: 0px;
+  margin: 0px;
+  width: 99.5%;
+  height: 930px;
+}
+.absolute51{
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  margin: 0px;
+  width: 400px;
+  height: 400px;
+  color: white;
+}
+.absolute51 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+}
+.absolute52{
+  position: absolute;
+  top: 130px;
+  right: 450px;
+  margin: 0px;
+  color: white;
+padding-top: 150px;
+font-size: 1.125rem;
+  width: 400px;
+  height: 200px;
+}
+.absolute53{
+  position: absolute;
+  top: 360px;
+  right: 0px;
+  margin: 0px;
+  width: 400px;
+  height: 70px;
+}
+.absolute53 button {
+  background-color: rgba(0,108,206,1);
+  padding: 10px;
+  width: 256px;
+  border: solid white 1px;
+  height: 49px;
+  color: white;
+  font-weight: bold;
+}
+.absolute53 button:hover{
+ background-color: rgb(94, 133, 168);
+ cursor: pointer;
+}
+.absolute54{
+  position: absolute;
+  top: 500px;
+  font-size: 1.25rem;
+  padding: 0px 24px;
+  padding-top: 20px;
+ left: 100px;
+ color: white;
+  margin: 0px;
+  width: 300px;
+  border-radius: 20px;
+  height: 250px;
+  border: 3px solid white;
+}
+.absolute55{
+  position: absolute;
+  top: 500px;
+  right: 465px;
+  color: white;
+  margin: 0px;
+  font-size: 1.25rem;
+  padding: 0px 24px;
+  padding-top: 20px;
+  width: 300px;
+  border-radius: 20px;
+  height: 250px;
+  border: 3px solid white;
+}
+.absolute56{
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  color: white;
+  margin: 0px;
+  font-size: 1.25rem;
+  padding: 0px 24px;
+  padding-top: 20px;
+  width: 300px;
+  border-radius: 20px;
+  height: 250px;
+  border: 3px solid white;
+}
+.relative11 {
+  position: relative;
+  top: 750px;
+  left: 0px;
+  margin: 0px;
+  width: 99.5%;
+  height: 1400px;
+}
+.absolute57{
+  position: absolute;
+  top: 100px;
+  right: 170px;
+  margin: 0px;
+  width: 300px;
+  height: 300px;
+}
+.absolute57 img {
+width: 329px;
+height: 290px;
+border-radius: 20px;
+box-shadow: 5px 3px 10px white;
+}
+.absolute58{
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  margin: 0px;
+  width: 650px;
+  height: 300px;
+}
+.absolute58 h2 {
+  font-size: 2rem;
+  line-height: 1.35;
+  color: #111f6a;
+}
+.absolute58 p {
+  font-size: 1.25rem;
+}
+.absolute59{
+  position: absolute;
+  top: 330px;
+  left: 130px;
+  margin: 0px;
+  width: 650px;
+  height: 100px;
+  border-left: #05509f solid 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.absolute59 p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+.absolute60{
+  position: absolute;
+  top: 500px;
+  left:130px;
+  margin: 0px;
+  line-height: 1.5;
+  width: 750px;
+  height: 350px;
+  font-size: 1.25rem;
+}
+.absolute60 a {
+  text-decoration: none;
+  color: #05509f;
+}
+.absolute61{
+  position: absolute;
+  top: 950px;
+  left: 170px;
+  margin: 0px;
+  width: 1000px;
+  height: 350px;
+  text-align: center;
+}
+.absolute61 h2 {
+  font-size: 2.188rem;
+  line-height: 1.35;
+  color: #111f6a;
+}
+.absolute61 p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.absolute61 a {
+  text-decoration: none;
+  color: #05509f;
+  display: inline;
+}
+.absolute61 button {
+  display: inline;
+}
+.absolute61 button {
+  background-color: rgba(0,108,206,1);
+  padding: 10px;
+  width: 256px;
+  border: solid white 1px;
+  height: 42px;
+  color: white;
+  font-weight: bold;
+}
+.absolute61 button:hover{
+ background-color: rgb(94, 133, 168);
+ cursor: pointer;
+}
+.relative12 {
+  position: relative;
+  top: 750px;
+  left: 0px;
+  margin: 0px;
+  width: 99.5%;
+  height: 460px;
+}
+.absolute62{
+  position: absolute;
+  background-color: rgb(2, 93, 179);
+  top: 0px;
+  box-shadow: 5px 8px 10px grey;
+  left: 35px;
+  margin: 0px;
+  width: 1255px;
+  height: 400px;
+}
+.absolute63{
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  margin: 0px;
+  width: 400px;
+  text-align: center;
+  height: 400px;
+}
+.absolute63 p {
+  font-size: 1.188rem;
+  color: white;
+}
+.absolute63 img {
+  padding-top: 60px;
+  width: 347px;
+  height: 62px;
+}
+.absolute64{
+  position: absolute;
+  top: 0px;
+  padding-top: 30px;
+  color: white;
+  left: 465px;
+  margin: 0px;
+  width: 450px;
+  height: 400px;
+}
+.absolute64 h2 {
+padding-bottom: 30px;
+}
+.absolute64 p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.absolute65{
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  margin: 0px;
+  width: 300px;
+  height: 400px;
+}
+.absolute65 .fa {
+  font-size: 1.031rem;
+  padding-top: 60px;
+  display: inline-block;
+  color: white;
+  padding-right: 20px;
+  }
+  .absolute65 button {
+    background-color: rgba(0,108,206,1);
+    padding: 10px;
+    width: 235px;
+    border: solid white 1px;
+    height: 42px;
+    color: white;
+    font-weight: bold;
+  }
+  .absolute65 button:hover{
+   background-color: rgb(94, 133, 168);
+   cursor: pointer;
+  }
+  .absolute65 a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+  }
+  .absolute65 p {
+    font-size: 1.063rem;
+    color: white;
+  }
+.absolute66{
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  margin: 0px;
+  width: 500px;
+  height: 100px;
+}
+.absolute66 p {
+  font-size: 1.063rem;
+  color: white;
+  text-align: center;
+}
+.absolute67{
+  position: fixed;
+  top: 80%;
+  right: 0px;
+  margin: 0px;
+  width: 90px;
+  height: 80px;
+}
+.absolute67 img {
+  width: 80px;
+  height: 80px;
+  background-color:skyblue;
+  border-radius: 25px;
+}
+.absolute67 img:hover{
+  background-color: rgb(94, 133, 168);
+}
