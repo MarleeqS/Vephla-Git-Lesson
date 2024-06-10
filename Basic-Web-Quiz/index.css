@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Glovo","Arial","Helvetica Neue",Helvetica,sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+header {
+    background-color: goldenrod;
+    align-items: center;
+position: fixed;
+    font-family: sans-serif;
+    z-index: 2;
+width: 100%;
+  }
+nav {
+    text-align: center;
+    font-size: 1.25rem;
+}
+nav h1 {
+    margin-top: 15px;
+    float: left;
+}
+.head {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0;
+    overflow: hidden;
+    background-color: goldenrod;
+  }
+  
+  .dropdown {
+    float: right;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    margin-right: 40px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.relative {
+    position: relative;
+    top: 81px;
+    height: 90vh;
+    width: 100%;
+    background-image: url(./images/adam-winger-nclN_J0UtJ8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.absolute {
+    position: absolute;
+    right: 27%;
+    top: 170px;
+    height: 40vh;
+    text-align: center;
+    width: 45vw;
+    color: black;
+}
+.absolute h1 {
+    font-size: 2.75rem;
+}
+.absolute p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.catalog {
+    margin-top: 170px;
+    text-align: center;
+    padding: 15px;
+    background: goldenrod;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.catalog:hover {
+    background: rgb(173, 132, 29);
+        color: white;
+}
+footer {
+    margin-top: 56px;
+display: flex;
+padding-top: 20px;
+height: 60px;
+flex-direction: column;
+    padding: 0px 20px;
+    background: black;
+    color: white;
+ 
+   }
+.footerul {
+    flex: 1 1 auto;
+    min-width: 0;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+}
+   li {
+    color: white;
+    text-align: center;
+}
+.link {
+    color: white;
+}
+.link:hover {
+    cursor: pointer;
+}

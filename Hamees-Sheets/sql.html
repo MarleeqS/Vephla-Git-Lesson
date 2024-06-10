@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Quiz | W-III</title>
+    <link rel="stylesheet" href="quizzes.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>SQL Quiz</h1>
+        <form id="quiz-form">
+            <ol>
+                <li>
+                    <h3>Question 1: What does SQL stand for?</h3>
+                    <input type="radio" name="q1" value="a"> Strong Question Language<br>
+                    <input type="radio" name="q1" value="b"> Structured Question Language<br>
+                    <input type="radio" name="q1" value="c"> Structured Query Language<br>
+                </li>
+                <li>
+                    <h3>Question 2: Which SQL statement is used to extract data from a database?</h3>
+                    <input type="radio" name="q2" value="a"> GET<br>
+                    <input type="radio" name="q2" value="b"> OPEN<br>
+                    <input type="radio" name="q2" value="c"> EXTRACT<br>
+                </li>
+                <li>
+                    <h3>Question 3: Which SQL statement is used to update data in a database?</h3>
+                    <input type="radio" name="q3" value="a"> MODIFY<br>
+                    <input type="radio" name="q3" value="b"> SAVE<br>
+                    <input type="radio" name="q3" value="c"> UPDATE<br>
+                </li>
+                <li>
+                    <h3>Question 4: Which SQL statement is used to delete data from a database?</h3>
+                    <input type="radio" name="q4" value="a"> REMOVE <br>
+                    <input type="radio" name="q4" value="b"> DELETE<br>
+                    <input type="radio" name="q4" value="c"> COLLAPSE<br>
+                </li>
+                <li>
+                    <h3>Question 5: Which SQL statement is used to insert new data in a database?</h3>
+                    <input type="radio" name="q5" value="a"> ADD RECORD <br>
+                    <input type="radio" name="q5" value="b"> INSERT INTO<br>
+                    <input type="radio" name="q5" value="c"> INSERT NEW<br>
+                </li>
+                <li>
+                    <h3>Question 6: With SQL, how do you select a column named "FirstName" from a table named "Persons"?</h3>
+                    <input type="radio" name="q6" value="a"> SELECT FirstName FROM Persons<br>
+                    <input type="radio" name="q6" value="b"> EXTRACT FirstName FROM Persons<br>
+                    <input type="radio" name="q6" value="c"> SELECT Persons.FirstName<br>
+                </li>
+                <li>
+                    <h3>Question 7: With SQL, how do you select all the columns from a table named "Persons"?</h3>
+                    <input type="radio" name="q7" value="a"> SELECT [all] FROM Persons <br>
+                    <input type="radio" name="q7" value="b"> SELECT * FROM Persons <br>
+                    <input type="radio" name="q7" value="c"> SELECT *.Persons <br>
+                </li>
+                <li>
+                    <h3>Question 8: How to write an IF statement for executing some code if "i" is NOT equal to 5?</h3>
+                    <input type="radio" name="q8" value="a"> if i =! 5 then<br>
+                    <input type="radio" name="q8" value="b"> if (i &lt;&gt; 5)<br>
+                    <input type="radio" name="q8" value="c"> if i &lt;&gt; 5<br>
+                </li>
+                <li>
+                    <h3>Question 9: With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" is "Peter"?</h3>
+                    <input type="radio" name="q9" value="a"> SELECT * FROM Persons WHERE FirstName &lt;&gt; 'Peter'<br>
+                    <input type="radio" name="q9" value="b"> SELECT * FROM Persons WHERE FirstName='Peter'<br>
+                    <input type="radio" name="q9" value="c"> SELECT [all] FROM Persons WHERE FirstName='Peter'<br>
+                </li>
+                <li>
+                    <h3>Question 10: With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" starts with an "a"?</h3>
+                    <input type="radio" name="q10" value="a"> SELECT * FROM Persons WHERE FirstName LIKE 'a%'<br>
+                    <input type="radio" name="q10" value="b"> SELECT * FROM Persons WHERE FirstName='%a%' <br>
+                    <input type="radio" name="q10" value="c"> SELECT * FROM Persons WHERE FirstName='%a'<br>
+                </li>
+            </ol>
+            <a href="submit.html" class="submit">Submit Quiz</a>
+        </form>
+    </div>
+</body>
+</html>
